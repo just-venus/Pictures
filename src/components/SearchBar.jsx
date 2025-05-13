@@ -1,5 +1,5 @@
 import { isValidElement, useState } from "react"
-import '.SearchBar.css'
+import './SearchBar.css'
 
 const SearchBar = ({ onSubmit }) => {
     const [term,setTerm] = useState('')
